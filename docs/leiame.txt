@@ -59,5 +59,11 @@ Clique a esquerda no “+” para adicionar um repositório.
 Ative o repositório desejado na tela exibida.
 Crie na raiz do projeto um arquivo chamado .travis.yml
 
+Para resolver o problema da falta de permissao foi incluido as configuras no travis.yml 
+before_install:
+  - chmod +x mvnw
+  
+Criar o banco de dados no mysql 
+ponto_inteligente  
 
 
