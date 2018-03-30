@@ -1,0 +1,22 @@
+leiame.txt
+
+Aula 4-
+
+Criar o repository no github
+
+entrar na pasta do projeto no workspace
+
+iniciar o projeto git
+git init 
+
+associar o projeto remoto ao git local
+git remote add origin https://github.com/vandoir/ponto-inteligente-api
+
+sincronizar os 2 arquivos dowload dos arquivos 
+git pull origin master
+
+git status 
+mostra se tem alguma alteracao pendente
+
+
+
