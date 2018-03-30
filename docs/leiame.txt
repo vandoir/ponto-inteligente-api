@@ -18,5 +18,46 @@ git pull origin master
 git status 
 mostra se tem alguma alteracao pendente
 
+git add . 
+vai adicionar todos os arquivos ao stage para ser enviados ao repository
+
+git status
+
+git commit -m "Commit inicial dos arquivos do projeto"
+
+deu o erro abaixo
+C:\PontoInteligente>git commit -m "Commit inicial dos arquivos do projeto"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address 
+
+configurei o usuario somente para este projeto
+
+git config user.email "you@example.com"
+git config user.name "Your Name" 
+
+git log 
+mostra os logs dos commits
+
+git push origin master
+enviar para o github remoto
+
+Aula 5 - Integrando com o TravisCI
+
+Acesse o TravisCI em http://travis-ci.org .
+Clique em “Sign in with GitHub” para associar ambas as contas.
+Clique a esquerda no “+” para adicionar um repositório.
+Ative o repositório desejado na tela exibida.
+Crie na raiz do projeto um arquivo chamado .travis.yml
+
 
 
