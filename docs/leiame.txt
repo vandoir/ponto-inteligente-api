@@ -66,4 +66,18 @@ before_install:
 Criar o banco de dados no mysql 
 ponto_inteligente  
 
+Problemas 
+- #security.basic.enabled=false
+  = criada a classe 
+  
+- Estou vendo o erro "com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: 
+	Table 'ponto_inteligente.hibernate_sequence' doesn't exist" ao salvar a informação?  
+  
+  = alterado as entidades para: @GeneratedValue(strategy = GenerationType.IDENTITY)
 
+- Se der um erro de JSON parse error can not  construct instance of java.util.Optional
+ tem que adicionar a dependencia abaixo, dai vai funcionar
+  =		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jdk8</artifactId>
+		</dependency>
