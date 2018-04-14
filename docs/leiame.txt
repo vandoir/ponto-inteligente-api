@@ -81,3 +81,12 @@ Problemas
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jdk8</artifactId>
 		</dependency>
+
+		
+Aula 
+
+acessando o swagger
+
+http://localhost:8080/v2/api-docs		
+
+http://localhost:8080/swagger-ui.html
